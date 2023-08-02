@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autocomplete Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img
+      src="https://static.vecteezy.com/system/resources/previews/009/741/205/large_2x/seamless-background-with-gold-bitcoin-symbols-and-diagonal-grid-with-chain-on-dark-blue-background-chess-order-of-elements-cryptocurrency-digital-money-pattern-illustration-vector.jpg"
+      alt=""
+    />
+    <div class="container">
+      <div class="content">
+        <div class="title">
+          Stay in touch with the top 50 Cryptocurrencies.
+          <p class="small_title">Get all the info you need.</p>
+        </div>
+        <input
+          type="text"
+          placeholder="Search for the best Cryptocurrencies"
+          id="searchBox"
+          autocomplete="off"
+        />
+
+        <div class="searchResults" id="searchResults">
+          <ul class="list" id="list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
